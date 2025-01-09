@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logobg1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logomm"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MemoMate"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="User Name :"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="78dp"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:background="@color/cardview_shadow_start_color"
+        android:hint="UserName"/>
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textStyle="bold"
+        android:layout_marginLeft="78dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="numberPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Login" />
+
+
+
+</LinearLayout>
